@@ -1,3 +1,23 @@
+## KKeiper1103's Modification of the Laravel Package
+
+Laravel is awesome. Find the Laravel Readme below.
+
+This package aims to add some other packages to Laravel that make it easier to develop. Specifically,
+the packages added are:
+
+- way/generators
+- cartalyst/sentry
+- codesleeve/asset-pipeline
+- barryvdh/laravel-debugbar
+
+To Use this Package:
+
+1) Add `kkeiper1103/laravel` to your composer.json file
+2) Run `composer install`
+3) Configure your Database connection in `app/config/database.php`
+4) Run `php artisan kkeiper1103:install`
+5) Develop like a beast!
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)

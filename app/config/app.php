@@ -121,7 +121,10 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-
+		'Codesleeve\AssetPipeline\AssetPipelineServiceProvider',
+    'Way\Generators\GeneratorsServiceProvider',
+    'Barryvdh\Debugbar\ServiceProvider',
+    'Cartalyst\Sentry\SentryServiceProvider',
 	),
 
 	/*
@@ -188,6 +191,8 @@ return array(
 		'URL'               => 'Illuminate\Support\Facades\URL',
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
 		'View'              => 'Illuminate\Support\Facades\View',
+		'Debugbar' => 'Barryvdh\Debugbar\Facade',
+		'Sentry' => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
 
 	),
 
